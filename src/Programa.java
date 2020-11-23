@@ -7,7 +7,8 @@ public class Programa {
 		if(parametros[0].equals("tarde")){//condicao equals tarde
 		    System.out.println("boa tarde");//boa tarde
 		}
-		if(true){//condicao equals noite
+		if(parametros[0].equals("noite")){
+			System.out.println("boa noite");
 			//boa noite
 		}
 	}
