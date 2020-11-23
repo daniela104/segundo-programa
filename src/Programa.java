@@ -4,8 +4,8 @@ public class Programa {
 		if(parametros[0].equals("manha")){ //condicao equals manha
 			System.out.println("bom dia");//bom dia
 		}
-		if(true){//condicao equals tarde
-			//boa tarde
+		if(parametros[0].equals("tarde")){//condicao equals tarde
+		    System.out.println("boa tarde");//boa tarde
 		}
 		if(true){//condicao equals noite
 			//boa noite
